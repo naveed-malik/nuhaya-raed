@@ -1,18 +1,21 @@
 # Ruwwad — Privacy Policy
 
-*Last updated 7 September 2026*
+*Last updated 8 September 2026*
 
-**Ruwwad does not collect your data. There is no server, no account, and nothing is
-sent to us.** Prayer times and the Qibla direction are calculated on your device,
-and the app works fully offline.
+**Ruwwad does not collect your data. There is no server of ours, and nothing is ever
+sent to us.** Prayer times and the Qibla direction are calculated on your device, and
+the app works without an internet connection.
 
 ## Your location
 
 Prayer times and the Qibla depend on where you are, so the app needs a location. It
 gets one of two ways, and **both stay on your device**:
 
-- **Your device's location**, if you grant permission. It is used to calculate times
-  and the Qibla bearing, and is **never transmitted anywhere**.
+- **Your device's location**, if you grant permission. It is used on your device to
+  calculate times and the Qibla bearing. **It is never sent to us.** To show you the
+  name of the town you are in, iOS looks that name up using Apple's own service, which
+  means your approximate location goes to Apple in the same way it would for Maps or
+  the weather. It goes nowhere else, and we never see it.
 - **A city you choose from a list**, if you would rather not grant permission.
 
 **Location permission is optional.** The app is fully usable without it — the city
@@ -32,6 +35,23 @@ On your device only:
 Some of this is written to a shared container so the widgets can read it. That
 container is on your device and is readable only by these apps.
 
+## Signing in with Apple
+
+The app offers **Sign in with Apple**, and **you can skip it** — every part of the app
+works without it, and skipping is offered as plainly as signing in.
+
+If you do sign in, Apple gives the app your name and an email address, and you may
+choose Apple's *Hide My Email* to keep your real address private. **Whatever Apple
+hands over is written to your device and stays there.** There is no account on any
+server of ours, because there is no server of ours. Signing out removes it from the
+device.
+
+## Finding a mosque
+
+If you search for a nearby mosque, that search is carried out by **Apple Maps**, the
+same as searching in the Maps app. The search text and the area you are looking in go
+to Apple. Nothing goes to us and no search is recorded on your device.
+
 ## Notifications
 
 Prayer reminders are **local notifications**, scheduled on your device in advance.
@@ -42,7 +62,8 @@ There is no push server, and no notification passes through anyone else's system
 - **No advertising.**
 - **No analytics of any kind.**
 - **No tracking**, across apps or websites.
-- **No account**, and no sign-in.
+- **No account on any server**, and no password to create. Sign in with Apple is
+  optional and is handled entirely by Apple.
 
 ## What Apple sees
 
