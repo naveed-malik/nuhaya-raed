@@ -1,7 +1,7 @@
 # Support
 
 If something is wrong, or you have a question about either app, email
-**n.a2@live.co.uk** and you will get a reply from a person.
+**boltontechnicalsupplies@gmail.com** and you will get a reply from a person.
 
 Please include which app you are using, your iPhone or iPad model, and the version
 of iOS, if you know it. It makes a real difference to how quickly something can be
