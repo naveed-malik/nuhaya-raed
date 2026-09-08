@@ -1,6 +1,6 @@
 ---
 title: Moved
-redirect_to: /nuhaya-raed/ruwwad/privacy
+redirect_to: /ruwwad/privacy
 ---
 
 # This page has moved
