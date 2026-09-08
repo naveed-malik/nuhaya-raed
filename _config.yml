@@ -1,3 +1,5 @@
-title: Nuhaya & Raed
-description: Privacy and support for the Nuhaya and Raed apps
+title: Nuhaya & Ruwwad
+description: Privacy and support for the Nuhaya and Ruwwad apps
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-redirect-from
