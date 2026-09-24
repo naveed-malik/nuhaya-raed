@@ -1,6 +1,6 @@
 # Ruwwad — Privacy Policy
 
-*Last updated 8 September 2026*
+*Last updated 24 September 2026*
 
 **Ruwwad does not collect your data. There is no server of ours, and nothing is ever
 sent to us.** Prayer times and the Qibla direction are calculated on your device, and
@@ -35,16 +35,11 @@ On your device only:
 Some of this is written to a shared container so the widgets can read it. That
 container is on your device and is readable only by these apps.
 
-## Signing in with Apple
+## No account, no sign-in
 
-The app offers **Sign in with Apple**, and **you can skip it** — every part of the app
-works without it, and skipping is offered as plainly as signing in.
-
-If you do sign in, Apple gives the app your name and an email address, and you may
-choose Apple's *Hide My Email* to keep your real address private. **Whatever Apple
-hands over is written to your device and stays there.** There is no account on any
-server of ours, because there is no server of ours. Signing out removes it from the
-device.
+There is nothing to sign in to. The app has no accounts, asks for no name or email
+address, and has no server of ours to hold one. Everything it knows about you is on
+your device, and deleting the app deletes it.
 
 ## Finding a mosque
 
@@ -62,8 +57,8 @@ There is no push server, and no notification passes through anyone else's system
 - **No advertising.**
 - **No analytics of any kind.**
 - **No tracking**, across apps or websites.
-- **No account on any server**, and no password to create. Sign in with Apple is
-  optional and is handled entirely by Apple.
+- **No account of any kind** — nothing to create, nothing to sign in to, and no
+  password.
 
 ## What Apple sees
 
