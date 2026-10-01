@@ -1,6 +1,6 @@
 # Ruwwad — Privacy Policy
 
-*Last updated 24 September 2026*
+*Last updated 1 October 2026*
 
 **Ruwwad does not collect your data. There is no server of ours, and nothing is ever
 sent to us.** Prayer times and the Qibla direction are calculated on your device, and
@@ -47,10 +47,24 @@ If you search for a nearby mosque, that search is carried out by **Apple Maps**,
 same as searching in the Maps app. The search text and the area you are looking in go
 to Apple. Nothing goes to us and no search is recorded on your device.
 
+## Checking for a new version
+
+From version 1.1, Ruwwad checks once a day whether a newer version is on the App Store,
+so it can tell you when one is out. It asks **Apple's App Store**, not us. The request
+contains only Ruwwad's App Store number. It carries **nothing about you**: not your
+location, not anything you did in the app, and no cookies are kept. Apple sees it the way
+it sees any request to the App Store. Nothing goes to us.
+
+If a newer version is out, the app shows a notice and, if you allow notifications, sends
+one. You can switch the check off in **Settings → About → Check for updates**; then no
+request is made at all.
+
 ## Notifications
 
 Prayer reminders are **local notifications**, scheduled on your device in advance.
-There is no push server, and no notification passes through anyone else's system.
+There is no push server, and no notification passes through anyone else's system. The
+notice about a new version is a local notification too. From version 1.1 the app may wake
+briefly in the background to keep your reminders scheduled and to run the version check.
 
 ## What is not in the app
 
