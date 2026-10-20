@@ -115,7 +115,7 @@ unlinking. Amazon's copies of routines, reminders and voice history are managed 
 
 Your Alexa settings and progress are kept until you request deletion or Amazon delivers a skill-disabled event.
 
-Technical logs from our Irish AWS function contain running times and errors and are retained for 30 days. We do not deliberately
+Technical logs from our AWS functions in Ireland and Northern Virginia contain running times and errors and are retained for 30 days. We do not deliberately
 log request bodies, event credentials or your recitation history. No server settings are
 shared with the phone app.
 
