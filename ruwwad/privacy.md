@@ -1,10 +1,13 @@
 # Ruwwad — Privacy Policy
 
-*Last updated 1 October 2026*
+*Version 2 · updated 20 October 2026*
 
-**Ruwwad does not collect your data. There is no server of ours, and nothing is ever
-sent to us.** Prayer times and the Qibla direction are calculated on your device, and
+**The Ruwwad phone app does not send your activity to us.** Prayer times and the Qibla direction are calculated on your device, and
 the app works without an internet connection.
+
+This policy covers the phone app and the optional Ruwwad Prayer Times skill for Alexa.
+The phone sections below describe data kept on your device. The Alexa section explains
+the separate server data needed for voice requests and automatic routines.
 
 ## Your location
 
@@ -35,7 +38,7 @@ On your device only:
 Some of this is written to a shared container so the widgets can read it. That
 container is on your device and is readable only by these apps.
 
-## No account, no sign-in
+## The phone app: no account, no sign-in
 
 There is nothing to sign in to. The app has no accounts, asks for no name or email
 address, and has no server of ours to hold one. Everything it knows about you is on
@@ -66,7 +69,57 @@ There is no push server, and no notification passes through anyone else's system
 notice about a new version is a local notification too. From version 1.1 the app may wake
 briefly in the background to keep your reminders scheduled and to run the version check.
 
-## What is not in the app
+## Ruwwad Prayer Times on Alexa
+
+Alexa is an optional, separate service. Amazon handles your voice under its own privacy
+notice. Ruwwad receives the recognized command and its details (such as a city or surah), and a skill-specific user code, not a voice
+recording, your home address, your name or your email. Requests can contain the city or
+recitation you ask for. The phone app and Alexa do not share your settings.
+
+**What we store:** your chosen city, Asr calculation choice, whether the UK Asr explanation
+has been given, prayer switches, listening position and completed recitations, and monthly
+reading-plan progress. Optional morning/night recitation also stores whether each schedule
+is enabled, its selected recitation, its delay after Fajr or Isha, and the last sensor signal
+and open/closed state. These are used to answer you, resume listening, and run the routines
+you choose. They are not used for advertising or behavioural tracking.
+
+**Optional Amazon linking:** Login with Amazon requests only your Amazon user ID. We store
+that ID, the link to the voice user code, Alexa's service region, and the access/refresh
+credentials Amazon issues for sensor events. We do not request your name or email. These
+credentials are used only to send the Adhan, Morning Recitation and Night Recitation signals.
+They are not included in our application logs or public files.
+
+**Where:** settings and linking data are held in our AWS database in Ireland. Skill requests
+can be processed by our AWS functions in Ireland or Northern Virginia, USA, according to
+Amazon's regional routing. Amazon also handles requests and routine data under its own terms.
+
+**Playback:** your Echo downloads Qur'an recordings directly from cdn.islamic.network.
+It downloads full adhan recordings from our CloudFront audio hosting. Like any internet
+audio request, the serving provider receives connection details such as the device's public
+IP address. Fajr is Besim Azemi / Islamic Center Malmö, CC BY 3.0; other prayers use
+Beautiful adhan, CC0. Recitation is Sheikh Muhammad Ayyub / King Fahd Complex, via Islamic
+Network. Our skill does not send the audio providers your voice user code or linking credentials.
+
+**Routines and reminders:** automatic playback requires routines you create in Alexa.
+Morning and night recitation schedules are off until enabled. Spoken reminders you request
+are created in your Amazon account only after you grant reminders permission. We keep no
+separate copy of those reminders; manage them in Alexa.
+
+**Deletion and stopping:** say **“Alexa, ask Prayer Times to forget my city”** to delete your
+saved voice settings, listening progress, account mapping and event credentials. Disabling
+the skill also triggers deletion when Amazon delivers the skill-disabled event. Revoked
+credentials are removed when Amazon rejects their use. Unlinking alone does not guarantee
+an immediate notification to us. To stop playback immediately, disable the routines in Alexa;
+you may also turn off the adhan, morning recitation and night recitation by voice before
+unlinking. Amazon's copies of routines, reminders and voice history are managed in Alexa.
+
+Your Alexa settings and progress are kept until you request deletion or Amazon delivers a skill-disabled event.
+
+Technical logs from our AWS functions in Ireland and Northern Virginia contain running times and errors and are retained for 30 days. We do not deliberately
+log request bodies, event credentials or your recitation history. No server settings are
+shared with the phone app.
+
+## What is not in the phone app
 
 - **No advertising.**
 - **No analytics of any kind.**
@@ -83,10 +136,14 @@ Security → Analytics & Improvements**.
 
 ## Deleting everything
 
-Deleting the app removes everything it stored. Nothing is held anywhere else,
-because nothing was ever sent anywhere.
+Deleting the phone app removes its local settings. It does not delete the separate Alexa
+settings: use the Alexa deletion command above for those.
 
 ## Changes
+
+Version 2 adds the optional Alexa skill, full adhan hosting, listening progress, linked
+Amazon sensor events and optional prayer-relative recitation. The phone app and Alexa data are described separately.
+
 
 If the app ever gains a feature that changes any of this, this policy will be updated
 before that feature ships, and the date at the top will change.
