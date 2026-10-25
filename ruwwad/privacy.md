@@ -1,6 +1,6 @@
 # Ruwwad — Privacy Policy
 
-*Version 2 · updated 20 October 2026*
+*Version 3 · updated 25 October 2026*
 
 **The Ruwwad phone app does not send your activity to us.** Prayer times and the Qibla direction are calculated on your device, and
 the app works without an internet connection.
@@ -34,6 +34,7 @@ On your device only:
 - Your notification preferences.
 - Your dhikr counts and streaks.
 - Your chosen or detected location.
+- Your favorite baby names, and the latest baby-name trends file with the date it was fetched.
 
 Some of this is written to a shared container so the widgets can read it. That
 container is on your device and is readable only by these apps.
@@ -49,6 +50,32 @@ your device, and deleting the app deletes it.
 If you search for a nearby mosque, that search is carried out by **Apple Maps**, the
 same as searching in the Maps app. The search text and the area you are looking in go
 to Apple. Nothing goes to us and no search is recorded on your device.
+
+## Baby names and name trends
+
+The names, their meanings and their sources are inside the app. Searching, reading and
+keeping favorites all happen on your phone. **Your favorites never leave it.**
+
+To keep "popular" and "rising" names current, the app downloads a small **name trends
+file**, only when you open Baby names and at most once a week. It is the same file for
+everyone, made from national baby-name statistics that governments publish, and it sits on
+our public page at **naveed-malik.github.io**, which is hosted by **GitHub**.
+
+- **What the request contains:** the file's address and nothing else of ours. There is no
+  account, no device or advertising identifier, no cookies, and nothing you searched for or
+  kept.
+- **What GitHub sees:** like any website, GitHub sees the internet (IP) address the request
+  comes from and the ordinary details any phone sends with a web request. GitHub says it
+  logs visitors' IP addresses for security; that is covered by the
+  [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+  GitHub does not give those logs to us, and we cannot see who downloads the file.
+- **Checked before use:** every file carries our digital signature, and the app throws
+  away any file that does not match it.
+- **Turning it off:** switch off **Update baby-name trends** in the app's Settings. Then no
+  request is made at all, and the app shows the trends that came with it.
+
+Without a connection everything works, using the trends that came with the app or the
+last ones downloaded.
 
 ## Checking for a new version
 
@@ -140,6 +167,8 @@ Deleting the phone app removes its local settings. It does not delete the separa
 settings: use the Alexa deletion command above for those.
 
 ## Changes
+
+Version 3 (25 October 2026) adds the baby-name trends download described above.
 
 Version 2 adds the optional Alexa skill, full adhan hosting, listening progress, linked
 Amazon sensor events and optional prayer-relative recitation. The phone app and Alexa data are described separately.
